@@ -75,4 +75,7 @@ return require('packer').startup(function(use)
 
     use 'windwp/nvim-ts-autotag'
 
+    use 'hrsh7th/nvim-cmp'
+    use 'hrsh7th/cmp-nvim-lsp'
+
 end)
