@@ -61,4 +61,18 @@ return require('packer').startup(function(use)
 
     use 'Mofiqul/vscode.nvim'
 
+    use 'lewis6991/gitsigns.nvim'
+
+    use 'norcalli/nvim-colorizer.lua'
+
+    use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+      require("toggleterm").setup()
+    end}
+
+    use { 'folke/todo-comments.nvim', 
+        requires = { 'nvim-lua/plenary.nvim' }
+    }
+
+    use 'windwp/nvim-ts-autotag'
+
 end)
